@@ -1,0 +1,13 @@
+.input-width {
+  width: 100%;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding: 200px 0;
+}
+
+.h2 {
+  color: #0033cc;
+}
