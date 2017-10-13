@@ -1,0 +1,17 @@
+<div class="container">
+    <form #loginForm="ngForm" class="content" (ngSubmit)="login(loginForm)">
+    <h2 class="mat-display-1"> Authentication </h2>
+
+  <md-form-field class="input-width">
+    <input mdInput placeholder="Username" ide ="username" name="username" required autofocus ngModel>
+  </md-form-field>
+  <br/>
+  <br/>
+  <md-form-field class="input-width">
+    <input mdInput type="password" placeholder="Password" id="password" name="password" required autofocus ngModel>
+  </md-form-field>
+
+<button md-raised-button color="primary"> Log In</button>
+
+</form>
+</div>
